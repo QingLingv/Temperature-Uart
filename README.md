@@ -6,7 +6,7 @@
 Temperature-Uart-7.0 工程文件，创建了基于通讯协议 RS232 的温控串口助手，使用 Qt Designer 进行界面设计，pyqt5进行逻辑功能的完善，pyserial 进行串口通信，pyqtgraph 进行数据的可视化。
 
 ## 2. 文件夹功能分类
-- dist 文件夹：存放将主文件 tiny_uart_main.py 打包完成的可执行文件。
+- dist 文件夹：存放将主文件 tiny_uart_main.py 打包完成的可执行文件。因为打包比较大这里就没有上传，可以直接运行 src 文件夹中的 packaging.py 文件生成。
 - doc 文件夹：存放串口工具需要显示的文本内容。
 - ico 文件夹：存放串口工具需要使用的图片背景以及相关图标。
 - src 文件夹：存放程序代码文件，包含 .ui 文件，.py文件以及 .ini文件等。
