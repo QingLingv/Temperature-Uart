@@ -1,0 +1,6 @@
+QToolBar#toolBar{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+	stop: 0 rgb(28,109,159),
+	stop: 0.8 rgb(226,146,153),
+	stop: 1 rgb(163,44,71));
+}
