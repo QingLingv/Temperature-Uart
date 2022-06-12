@@ -1,0 +1,18 @@
+查询命令用于查询某个参数的值
+1. 查询命令语法如下:                    
+                     MODULENAME:PARAMNAME?\r
+2. 整个设定命令由三部分组成:模块参数名、问号、结束符。 
+3. 含义为:模块:参数?\r 
+   例如： 
+        TC1:TCACTUALTEMP?\r
+        含义是查询子模块 TC1 的参数 TCACTUALTEMP 的值
+4. 绝大部分参数都可以被查询。
+5. 下位机接收到查询命令后，执行相关操作，然后返回执行结果信息。
+   如果查询命令正确，返回信息的格式如下:
+        MODULENAME:PARAMNAME=PARAMVALUE\r
+   比如:
+        向下位机发送 TC1:TC1:TCACTUALTEMP?\r
+        下位机则返回 TC1:TC1:TCACTUALTEMP=25\r
+   如果查询命令错误，返回信息的格式如下:
+       CMD:REPLY=ERRORCODE\r 
+       其中 ERRORCODE 代表错误信息码

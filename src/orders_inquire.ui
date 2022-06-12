@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>楷体</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>指令查询框</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../ico/find.ico</normaloff>../ico/find.ico</iconset>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="tab">
+   <attribute name="title">
+    <string>设定命令</string>
+   </attribute>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../ico/sdml.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_1">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>21</y>
+      <width>691</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab_2">
+   <attribute name="title">
+    <string>查询命令</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>21</y>
+      <width>691</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../ico/cxml.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab_3">
+   <attribute name="title">
+    <string>保存命令</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>30</y>
+      <width>691</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../ico/bcml.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab_4">
+   <attribute name="title">
+    <string>其它命令</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_4">
+    <property name="geometry">
+     <rect>
+      <x>89</x>
+      <y>31</y>
+      <width>691</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文楷体</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../ico/xx.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
